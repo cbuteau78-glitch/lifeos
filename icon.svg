@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background - soft bubblegum gradient -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFD6E7"/>
+      <stop offset="100%" stop-color="#FFAECE"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="110" fill="url(#glow)"/>
+
+  <!-- Little flowers scattered -->
+  <text x="60" y="120" font-size="48" opacity="0.7">🌸</text>
+  <text x="380" y="100" font-size="36" opacity="0.6">🌺</text>
+  <text x="420" y="400" font-size="40" opacity="0.5">🌷</text>
+  <text x="40" y="400" font-size="32" opacity="0.5">✿</text>
+
+  <!-- Forest mushroom/leaf vibes -->
+  <text x="350" y="460" font-size="36" opacity="0.5">🍄</text>
+  <text x="80" y="460" font-size="30" opacity="0.4">🍃</text>
+
+  <!-- Main cat - centered, big, cute -->
+  <text x="256" y="330" font-size="200" text-anchor="middle" dominant-baseline="middle">🐱</text>
+
+  <!-- Tiny sparkles -->
+  <text x="180" y="160" font-size="28">✨</text>
+  <text x="320" y="200" font-size="20">⭐</text>
+  <text x="150" y="340" font-size="16">✦</text>
+  <text x="360" y="350" font-size="20">✨</text>
+
+  <!-- "OS" text at bottom -->
+  <text x="256" y="470" font-size="52" font-family="Georgia, serif" font-weight="bold"
+    text-anchor="middle" fill="#b5407a" opacity="0.85">Life OS</text>
+</svg>
